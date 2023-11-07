@@ -152,7 +152,7 @@ export const Projects = ({ projectsRef }) => {
           onMouseEnter={handleProjectOneEnter}
           onMouseLeave={handleProjectOneLeave}>
             <div className="img-container">
-                <img src="./images/pokemon.png"/>
+                <img src="./images/pokemon.PNG"/>
                 {projectOne && projectOneDesc}
             </div>
             {screenSize.width >= 1100 || screenSize.width <= 575 ? projectOneDesc : ''}
